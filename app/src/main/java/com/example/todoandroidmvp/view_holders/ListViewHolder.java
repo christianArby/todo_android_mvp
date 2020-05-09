@@ -31,7 +31,7 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
         btn_remove_todo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onRemoveTodoClickListener.onRemoveTodoClicke(key);
+                onRemoveTodoClickListener.onRemoveTodoClicked(key);
             }
         });
 

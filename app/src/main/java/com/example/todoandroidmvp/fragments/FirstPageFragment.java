@@ -59,7 +59,6 @@ public class FirstPageFragment extends Fragment {
                 return false;
             }
         });
-
         return view;
     }
 

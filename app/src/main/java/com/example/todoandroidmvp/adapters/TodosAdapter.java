@@ -63,6 +63,4 @@ public class TodosAdapter extends RecyclerView.Adapter<ListViewHolder> {
     public int getItemCount() {
         return timestamps.size();
     }
-
-
 }
