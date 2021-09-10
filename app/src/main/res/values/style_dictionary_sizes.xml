@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 10 Sep 2021 14:59:20 GMT
+-->
+<resources>
+  <dimen name="size_0">4.00dp</dimen>
+  <dimen name="size_1">8.00dp</dimen>
+  <dimen name="size_2">16.00dp</dimen>
+  <dimen name="size_3">24.00dp</dimen>
+  <dimen name="size_4">32.00dp</dimen>
+  <dimen name="size_5">40.00dp</dimen>
+  <dimen name="size_6">48.00dp</dimen>
+  <dimen name="size_7">56.00dp</dimen>
+  <dimen name="size_8">64.00dp</dimen>
+  <dimen name="size_radius1">8.00dp</dimen>
+  
+</resources>

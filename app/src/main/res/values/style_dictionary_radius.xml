@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 10 Sep 2021 14:59:20 GMT
+-->
+<resources>
+  <string name="radius_4_radius">4</string>
+  <string name="radius_4_radius_type">single</string>
+  <string name="radius_4_radii_top_left">4</string>
+  <string name="radius_4_radii_top_right">4</string>
+  <string name="radius_4_radii_bottom_right">4</string>
+  <string name="radius_4_radii_bottom_left">4</string>
+  <string name="radius_4_smoothing">0</string>
+  
+</resources>
