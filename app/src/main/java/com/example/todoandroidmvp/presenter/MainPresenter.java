@@ -37,6 +37,7 @@ public class MainPresenter implements IMainPresenter{
         timestamps = new ArrayList<>();
         jsonData = new JSONObject();
         queue = Volley.newRequestQueue(context);
+
         String url ="https://us-central1-foxmike-test.cloudfunctions.net/todoDb/getTodo";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {

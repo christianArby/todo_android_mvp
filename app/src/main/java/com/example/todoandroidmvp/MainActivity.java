@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements FirstPageFragment
             @Override
             public void onRemoveTodoClicked(String key) {
                 mainPresenter.onRemoveTodo(key);
+                mainPresenter.
             }
         };
 

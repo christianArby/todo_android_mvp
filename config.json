@@ -1,0 +1,118 @@
+{
+  "source": [
+    "tokens/*.json"
+  ],
+  "platforms": {
+    "android": {
+      "transformGroup": "android",
+      "transforms": [
+        "attribute/cti",
+        "name/cti/snake",
+        "color/hex8android",
+        "size/remToSp",
+        "size/dp"
+      ],
+      "buildPath": "../build/android/src/main/res/values/",
+      "files": [
+        {
+          "format": "android/resources",
+          "destination": "style_dictionary.xml"
+        },
+        {
+          "format": "android/resources",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          },
+          "destination": "style_dictionary_colors.xml"
+        },
+        {
+          "format": "android/resources",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          },
+          "destination": "style_dictionary_sizes.xml"
+        },
+        {
+          "format": "android/resources",
+          "filter": {
+            "attributes": {
+              "category": "font"
+            }
+          },
+          "destination": "style_dictionary_fonts.xml"
+        },
+        {
+          "format": "android/resources",
+          "type":"double",
+          "filter": {
+            "attributes": {
+              "category": "radius"
+            }
+          },
+          "destination": "style_dictionary_radius.xml"
+        }
+      ]
+    },
+    "scss": {
+      "transformGroup": "custom/scss",
+      "buildPath": "build/scss/",
+      "files": [
+        {
+          "destination": "_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "custom/css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables",
+          "options": {
+            "showFileHeader": false
+          }
+        }
+      ]
+    },
+    "json-flat": {
+      "transformGroup": "custom/js",
+      "buildPath": "build/json/",
+      "files": [
+        {
+          "destination": "styles.json",
+          "format": "json/flat"
+        }
+      ]
+    },
+    "ios-swift-separate-enums": {
+      "transformGroup": "ios-swift",
+      "buildPath": "build/ios-swift/",
+      "basePxFontSize": 1,
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.swift",
+          "format": "ios-swift/class.swift",
+          "className": "StyleDictionaryColor",
+          "filter": {
+            "type": "color"
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.swift",
+          "format": "ios-swift/class.swift",
+          "className": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "exportKey": "size"
+          }
+        }
+      ]
+    }
+  }
+}
