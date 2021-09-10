@@ -12,7 +12,7 @@
         "size/remToSp",
         "size/dp"
       ],
-      "buildPath": "../build/android/src/main/res/values/",
+      "buildPath": "app/src/main/res/values/",
       "files": [
         {
           "format": "android/resources",
