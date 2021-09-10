@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Fri, 10 Sep 2021 14:59:20 GMT
+-->
+<resources>
+  <color name="color_foregroundsecondaryinvertedlight">#ff808080</color>
+  <color name="color_successlight">#ff4cd964</color>
+  <color name="color_importantlight">#ffe62243</color>
+  <color name="color_foregroundprimarylight">#ff111111</color>
+  <color name="color_foregroundsecondarylight">#ff3a3a3a</color>
+  <color name="color_foregroundtertiarylight">#ff808080</color>
+  <color name="color_backgroundprimarylight">#ffffffff</color>
+  <color name="color_highlightlight">#ffffdb00</color>
+  <color name="color_foregroundprimaryinvertedlight">#ffffffff</color>
+  <color name="color_foregroundprimarydark">#ffffffff</color>
+  <color name="color_foregroundsecondarydark">#ff808080</color>
+  <color name="color_foregroundtertiarydark">#ff3a3a3a</color>
+  <color name="color_backgroundprimarydark">#ff111111</color>
+  <color name="color_successdark">#ff4cd964</color>
+  <color name="color_importantdark">#ffe62243</color>
+  <color name="color_highlightdark">#ffffdb00</color>
+  <color name="color_foregroundsecondaryinverteddark">#ff3a3a3a</color>
+  <color name="color_foregroundprimaryinverteddark">#ff111111</color>
+  <color name="color_p1">#ff35a3bf</color>
+  <color name="color_p2">#ffff6000</color>
+  <color name="color_p3">#ff11ac73</color>
+  <color name="color_p4">#ffc518ad</color>
+  <color name="color_radionapan">#ffa345b3</color>
+  <color name="color_sisu">#ff0065bd</color>
+  <color name="color_sport">#ff0f8f0f</color>
+  <color name="color_ekot">#ff0065bd</color>
+  <color name="color_gradientstart">#80111111</color>
+  <color name="color_gradientstop">#03111111</color>
+  
+</resources>
